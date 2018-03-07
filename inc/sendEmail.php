@@ -50,7 +50,7 @@ if($_POST) {
       $mail = mail($siteOwnersEmail, $subject, $message, $headers);
 
 		if ($mail) { echo "OK"; }
-      else { echo "Something went wrong. Please try again."; }
+      else { echo "Something went wrong. Please try again. If you're not able to send a message, try sending it using my other domain abishek.cf"; }
 
 	} # end if - no validation error
 
