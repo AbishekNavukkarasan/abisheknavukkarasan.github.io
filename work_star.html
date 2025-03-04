@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abi's Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #333333;
+            color: #f0f0f0;
+            text-align: center;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            color: #f0f0f0;
+            text-decoration: none;
+            margin-right: 15px;
+            font-size: 18px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        a {
+            color: inherit; /* Keeps text color unchanged */
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        a:visited, a:active {
+            color: inherit; /* Prevents color change after clicking */
+        }
+        .quote {
+            font-size: 24px;
+            font-style: italic;
+            margin: 20px auto; /* Adds space on top and bottom, centers it */
+            padding: 10px; /* Adds space inside */
+            max-width: 80%; /* Prevents it from stretching too wide */
+        }
+
+        .section {
+            max-width: 850px;
+            margin: auto;
+            padding: 20px;
+            background-color: #444;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            text-align: justify; /* Align content to the left */
+        }
+        .section h2 {
+            font-size: 28px;
+            margin-bottom: 15px;
+        }
+        .section p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        .content {
+            flex: 1;
+        }
+        footer {
+            width: 100%;
+            text-align: center;
+            margin-top: auto;
+            padding: 5px 0;
+        }
+        footer a {
+            color: #f0f0f0;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+        footer a:visited, footer a:active {
+            color: #f0f0f0;
+        }
+        .job-title {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .date {
+            display: inline-block;
+            width: 200px;
+        }
+        .star-container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            gap: 10px;
+        }
+        .star-box {
+            width: 24%;
+            padding: 10px;
+            background-color: #555;
+            border-radius: 5px;
+            text-align: center;
+            border: 1px solid #f0f0f0;
+        }
+        .star-box strong {
+            display: block;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="work.html">Curriculum Vitae</a>
+        <a href="#">Projects</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <div class="section">
+        <h2>Current Work</h2>
+        <p class="job-title">Engineering Lead/Project Manager - <a href="https://www.catalyticconsultinginc.com" target="_blank">Catalytic Consulting Inc.</a> (April 2024 - Present)</p>
+        <div class="star-container">
+            <div class="star-box"><strong>Situation</strong> Need to optimize cycle test stand for EDI ultra-pure water filtration systems.</div>
+            <div class="star-box"><strong>Task</strong> Enhance reliability and reduce operational costs.</div>
+            <div class="star-box"><strong>Action</strong> Implemented workflow improvements and engineered system optimizations.</div>
+            <div class="star-box"><strong>Result</strong> Reduced operational costs by over $1M in under 6 months.</div>
+        </div><br>
+            <div class="star-container">
+          <div class="star-box"><strong>Situation</strong> Need to analysis competitive market and engineer innovative product</div>
+          <div class="star-box"><strong>Task</strong> Enhance reliability and reduce operational costs.</div>
+          <div class="star-box"><strong>Action</strong> Implemented workflow improvements and engineered system optimizations.</div>
+          <div class="star-box"><strong>Result</strong> Reduced operational costs by over $1M in under 6 months.</div>
+      </div>
+
+        <h2>Past Work</h2>
+        <p class="job-title">Test Developer - <a href="https://sustainability.aboutamazon.com/waste/packaging"  target="_blank" rel="noopener noreferrer">Amazon Fulfilment Technologies and Robotics</a> - (May 2024 - October 2024) <i>Contract</i> </p>
+        <div class="star-container">
+            <div class="star-box"><strong>Situation</strong> Need to generate comprehensive test reports for MSP Packaging Automation.</div>
+            <div class="star-box"><strong>Task</strong> Conduct rigorous testing and provide performance insights.</div>
+            <div class="star-box"><strong>Action</strong> Led a team of 3 engineers and developed structured reports.</div>
+            <div class="star-box"><strong>Result</strong> Reduced downtime by 30% through actionable testing metrics.</div>
+        </div>
+
+        <p class="job-title">Test Engineer - <a href="https://www.sparkcharge.io"  target="_blank" rel="noopener noreferrer">SparkCharge Inc</a> - (April 2023 - December 2023) </p>
+        <div class="star-container">
+            <div class="star-box"><strong>Situation</strong> Service tool required to address firmware bugs.</div>
+            <div class="star-box"><strong>Task</strong> Develop a comprehensive tool to improve product serviceability.</div>
+            <div class="star-box"><strong>Action</strong> Designed, tested, and deployed the service tool.</div>
+            <div class="star-box"><strong>Result</strong> Increased customer retention by 80%.</div>
+        </div>
+
+        <p class="job-title">Development Test Engineer - <a href="https://www.agnikul.in"  target="_blank" rel="noopener noreferrer">Agnikul Cosmos</a>- (January 2019 - August 2019)</p>
+        <div class="star-container">
+            <div class="star-box"><strong>Situation</strong> Need for a semi-cryogenic test stand.</div>
+            <div class="star-box"><strong>Task</strong> Design and implement a test stand in minimal time.</div>
+            <div class="star-box"><strong>Action</strong> Led full realization from ideation to launch in under 3 months.</div>
+            <div class="star-box"><strong>Result</strong> Contributed to securing $3.2M in seed funding.</div></div>
+
+        <p class="job-title">R&D Intern - Lema Labs Robotics Technologies - (December 2017 - September 2018)</p>
+        <div class="star-container">
+            <div class="star-box"><strong>Situation</strong> Developed & designed robotic kits from concept and proof of principles.</div>
+            <div class="star-box"><strong>Task</strong> Create functional robotic kits meeting specifications & implementation needs.</div>
+            <div class="star-box"><strong>Action</strong> Designed parts in Fusion 360 & Creo and performed FEA Analysis.</div>
+            <div class="star-box"><strong>Result</strong> Successfully developed educational and commercial robotic kits.</div>
+        </div>
+
+        <p class="job-title">Project Intern - RapidFab 3D Engineering Solutions - (January 2018 - April 2018)</p>
+        <div class="star-container">
+            <div class="star-box"><strong>Situation</strong> Needed to develop a novel SCARA robotic-arm 3D Printer.</div>
+            <div class="star-box"><strong>Task</strong> Design and prototype the robotic-arm 3D printer using CAD tools.</div>
+            <div class="star-box"><strong>Action</strong> Utilized Fusion 360 and Ansys for design and validation.</div>
+            <div class="star-box"><strong>Result</strong> Successfully designed and demonstrated a working prototype.</div>
+        </div>
+
+        <p class="job-title">R&D Hardware Intern - Rent&Make Virtual Makerspace - (July 2016 - December 2016)</p>
+        <div class="star-container">
+            <div class="star-box"><strong>Situation</strong> Needed to research and develop open-source prototyping hardware.</div>
+            <div class="star-box"><strong>Task</strong> Design, develop, and optimize prototyping solutions.</div>
+            <div class="star-box"><strong>Action</strong> Managed and deployed 4 major products for customers.</div>
+            <div class="star-box"><strong>Result</strong> Successfully delivered optimized prototyping hardware to clients.</div>
+        </div>
+    </div>
+
+    <footer>
+        <p><i>Copyright@2025</i></p>
+    </footer>
+</body>
+</html>
