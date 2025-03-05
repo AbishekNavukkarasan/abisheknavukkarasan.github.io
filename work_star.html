@@ -108,6 +108,33 @@
             display: block;
             margin-bottom: 5px;
         }
+        .button-container {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            max-width: 850px;
+            margin: 0 auto;
+        }
+        .button-box {
+            width: 48%;
+            padding: 15px;
+            background-color: #3a3a3a;
+            border-radius: 5px;
+            text-align: center;
+            border: 1px solid #ccc;
+        }
+        .button-box a {
+            display: block;
+            padding: 10px;
+            background-color: #555;
+            color: #f0f0f0;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+        }
+        .button-box a:hover {
+            background-color: #777;
+        }
     </style>
 </head>
 <body>
@@ -117,10 +144,20 @@
         <a href="#">Projects</a>
         <a href="#">Contact</a>
     </nav>
-
+    <div>
+        <div class="button-container">
+            <div class="button-box">
+                <a href="Resume_Abi.pdf" target="_blank">Click here to view my Resume</a>
+            </div>
+            <div class="button-box">
+                <a href="work.html">Click here to view my work experience as a Summary</a>
+            </div>
+        </div>
+    </div>
+    <br>
     <div class="section">
         <h2>Current Work</h2>
-        <p class="job-title">Engineering Lead/Project Manager - <a href="https://www.catalyticconsultinginc.com" target="_blank">Catalytic Consulting Inc.</a> (April 2024 - Present)</p>
+        <p class="job-title">Engineering Lead - <a href="https://www.catalyticconsulting.net" target="_blank">Catalytic Consulting Inc.</a> (April 2024 - Present)</p>
         <div class="star-container">
             <div class="star-box"><strong>Situation</strong> Need to optimize cycle test stand for EDI ultra-pure water filtration systems.</div>
             <div class="star-box"><strong>Task</strong> Enhance reliability and reduce operational costs.</div>
