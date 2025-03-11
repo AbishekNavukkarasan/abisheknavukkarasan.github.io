@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-PVTMHBMZPZ"></script>
 <script>
@@ -16,10 +15,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Abi's Projects</title>
     <link rel="icon" type="image/png" href="Images/icons8-robot-24.png">
+    <link href='https://fonts.googleapis.com/css?family=Source Code Pro' rel='stylesheet'>
+
 
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Source Code Pro';font-size: 16px;
             margin: 0;
             padding: 0;
             background-color: #333333;
@@ -28,7 +29,7 @@
             min-height: 100vh;
             display: flex;
             flex-direction: column;
-            font-size: 18px; /* Uniform font size for all text */
+            /* font-size: 18px; Uniform font size for all text */
         }
         nav {
             margin: 20px 0;
@@ -59,7 +60,7 @@
             align-items: center;
         }
         .section {
-            max-width: 800px;
+            max-width: 900px;
             margin: auto;
             padding: 20px;
             background-color: #444;
@@ -104,6 +105,9 @@
         margin-bottom: 20px; /* Add spacing between the boxes */
         border-radius: 5px; /* Optional: Round the corners */
         }
+        ul.custom-bullets li::marker {
+        color: #eb6b34;
+        }
 
     </style>
     
@@ -122,11 +126,11 @@
             
             
             <div class="project-box" style="text-align: left;">
-                <h2 style="text-align:left;">Semi-Cryogenic Engine Test Stand at Agnikul Cosmos</h2>
+                <h2 style="text-align:left; color:#eb6b34;">Semi-Cryogenic Engine Test Stand</h2>
             
                 <p><strong>Business Motivation:</strong></p>
                 <p class="indented">
-                    In 2019, there was a lack of regulations in India for private rocket engine testing, posing a major hurdle for Agnikul Cosmos. To bypass this, <I></I> designed a portable semi-cryogenic engine test stand, enabling hot-fire tests in remote locations with minimal restrictions.
+                    In 2019, there was a lack of regulations in India for private rocket engine testing, posing a major hurdle for Agnikul Cosmos. To bypass this, I designed a portable semi-cryogenic engine test stand, enabling hot-fire tests in remote locations with minimal restrictions.
                 </p>
             
                 <p><strong>Role and Responsibilities:</strong></p>
@@ -135,7 +139,7 @@
                 </p>
             
                 <p><strong>Challenges and Solutions:</strong></p>
-                <ul>
+                <ul class="custom-bullets">
                     <li><b>Navigating Undefined Requirements:</b> With minimal existing documentation, I engaged directly with sub-system owners to understand their evolving needs over the next two years, translating them into a structured product roadmap.</li>
                     <br><li><b>System Design & Modularity:</b> Developed a <b>turnkey, modular test stand</b> capable of supporting a variety of propulsion tests while maintaining portability for flexible deployment.</li>
                     <br><li><b>Engineering for Field Testing:</b> Designed critical hardware, including a <b>linear bearing structure</b> that supported engine loads with a <b>three-axis load cell</b>, jet deflectors for safe testing, and a <b>custom in-house electro-mechanical valve</b> to reduce costs.</li>
@@ -143,7 +147,7 @@
                 </ul>
                 
                <p><b>Impact and Results:</b></p>
-                <ul>
+                <ul class="custom-bullets">
                     <li><b>Accelerated Engine Development:</b> The modular test stand enabled rapid hot-fire testing cycles, significantly reducing propulsion system validation and iteration turnaround time.</li>
                     <br><li><b>Scalable Testing Infrastructure:</b> The test stand was designed with modularity in mind, ensuring it could be adapted for future semi-cryogenic engine iterations, providing long-term usability and flexibility.</li>
                     <br><li><b>Secured Funding:</b> The successful acquisition of high-quality propulsion data directly contributed to securing a <b>$3.2 million seed funding round</b> by raising the TRL levels of the hardware.</li>
@@ -168,25 +172,25 @@
 <br>
 
             <div class="project-box" style="text-align: left;">
-                <h2 style="text-align: left;">Service Tool for SparkCharge</h2>
+                <h2 style="text-align:left; color:#eb6b34;">Service Tool for SparkCharge</h2>
                 <p><b>Business Motivation:</b></p>
                 <p class="indented">SparkCharge's early core products, the V1 and V2 Roadie, faced significant field deployment challenges. Due to early-stage design limitations, these chargers frequently encountered issues that could only be resolved by dispatching service technicians, leading to high operational costs and reduced customer satisfaction. The company needed a cost-effective and scalable solution to diagnose, troubleshoot, and fix these chargers without requiring on-site service calls.</p>
 
                 <p><b>Role and Responsibilities:</b></p>
-                <ul>
+                <ul class="custom-bullets">
                     <li><b>End-of-Line Charger Test System:</b> Developed a factory-based test system to identify and eliminate defects before chargers left the facility, reducing post-deployment failures and minimizing the need for field repairs.</li>
                     <br><li><b>Remote Service Tool:</b> Designed a comprehensive service tool capable of diagnosing, troubleshooting, and updating firmware remotely, reducing the dependency on service technicians and improving response time for customer issues.</li>
                 </ul>
 
                 <p><b>Challenges and Solutions:</b></p>
-                <ul>
+                <ul class="custom-bullets">
                     <li><b>Field Reliability Risks:</b> Conducted an extensive <b>DFMEA (Design Failure Mode and Effects Analysis)</b> to ensure the service tool was fail-proof. Since the service tool was responsible for fixing malfunctioning chargers, it was critical that it never failed in the field.</li>
                     <br><li><b>Seamless Integration:</b> Ensured the service tool was fully compatible with SparkCharge’s existing V2 product line and adaptable to the upcoming V3 design for long-term sustainability.</li>
                     <br><li><b>Remote Communication & Troubleshooting:</b> Built a robust system that allowed real-time communication with deployed chargers, enabling remote diagnosis and over-the-air firmware updates.</li>
                 </ul>
 
                 <p><b>Impact and Results:</b></p>
-                <ul>
+                <ul class="custom-bullets">
                     <li><b>Improved Customer Retention:</b> Enabled remote issue resolution, reducing downtime and increasing customer trust, leading to an <b>80% improvement in customer retention</b>.</li>
                     <br><li><b>Accelerated Project Timelines:</b> Reduced the need for in-person troubleshooting, speeding up service and repair cycles by <b>30%</b>.</li>
                     <br><li><b>Cost Savings & Future Design Influence:</b> Minimized service costs by reducing technician dispatches and influenced <b>V3 product line design</b> by incorporating enhanced serviceability features.</li>
